@@ -125,6 +125,22 @@ console.log(newVersion || updated)
 console.log(!newVersion)
 
 
+// String Operators:
+
+let std_1 = "Ayub ";
+let std_2 = "abdi ";
+let std_3 = "ibrahim ";
+
+console.log(std_1 + " " + std_2 + " " + std_3);
+
+let greeting =  "hello man ";
+greeting += std_1;
+greeting += std_2;
+greeting += std_3
+
+greeting += "good night ";
+
+console.log(greeting)
 
 
 
