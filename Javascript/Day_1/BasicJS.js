@@ -108,5 +108,23 @@ console.log(n1 >= n2);
 
 console.log(n1 <= n2);
 
+// Logical Operators:
+// AND 
+
+const newVersion = true;
+const updated = false;
+
+console.log(newVersion && updated)
+
+// OR
+
+console.log(newVersion || updated)
+
+// NOT
+
+console.log(!newVersion)
+
+
+
 
 
