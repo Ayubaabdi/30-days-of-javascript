@@ -28,3 +28,30 @@ const middleName = "ahmed"
 const lastName = "Amin"
 
 console.log(fastName, middleName, lastName)
+
+
+
+
+// Data-type
+
+// Strings
+
+ let Man = "Ali Ahmed"
+ let woman = "Amina"
+
+ console.log(Man, woman)
+
+
+//  Numbers
+
+const num1 = 20;
+const num2 = 30;
+
+console.log(num1, num2);
+
+
+// Boolean 
+
+let Addult = false;
+
+console.log(Addult)
