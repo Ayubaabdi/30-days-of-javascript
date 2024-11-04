@@ -68,3 +68,45 @@ console.log(num4*num5);
 console.log(num4/num5);
 console.log(++num4);
 console.log(--num5)
+
+// Comparison Operators:
+
+// Equal To
+const n1 = 10;
+const n2 = "10";
+
+console.log(n1 == n2);
+
+
+// Not Equal To
+
+console.log(n1 != n2);
+
+
+// Strictly equal to
+console.log(n1 ===n2);
+
+// Strictly not equal to
+
+console.log(n1 !== n2);
+
+// Greater than
+
+console.log(n1 > n2);
+
+// Less than 
+
+console.log(n1 < n2);
+
+
+// Greater than or equal to
+
+console.log(n1 >= n2);
+
+
+// Less than or equal to 
+
+console.log(n1 <= n2);
+
+
+
