@@ -55,3 +55,16 @@ console.log(num1, num2);
 let Addult = false;
 
 console.log(Addult)
+
+
+// Operators 
+
+let num4 = 10;
+let num5 = 5;
+
+console.log(num4+num5);
+console.log(num4-num5);
+console.log(num4*num5);
+console.log(num4/num5);
+console.log(++num4);
+console.log(--num5)
