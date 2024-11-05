@@ -15,3 +15,24 @@ console.log(names[3]);
     console.log("This is Color One " +Colors[0]);
     console.log("This is Color two " +Colors[1]);
     console.log("This is Color three " +Colors[2]);
+
+
+
+    // Array Methods
+
+    let std = ["Ali", "Abdiwali", "Mohamud", "sadaq"]
+
+    console.log(std);
+
+
+    std.push("Amina");
+
+    std.pop()
+
+    std.unshift("Ahmed");
+
+    std.shift();
+
+    console.log(std.length)
+
+    
