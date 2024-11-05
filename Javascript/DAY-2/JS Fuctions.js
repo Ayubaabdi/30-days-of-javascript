@@ -47,7 +47,8 @@ const hello = function(name) {
     console.log("hello !" + name)
 }
 
-hello("amina")
+hello("amina");
+hello("sacdiya")
 
 
 
@@ -58,3 +59,22 @@ const sum = function(a, b){
      let added =  sum(20,20)
 
      console.log(added /2);
+
+
+
+// Exercise
+
+     function Addition(a, b) {
+        console.log(a+b)
+     }
+     
+     Addition(20,50);
+
+
+    //  Exercise Function Expression
+    const SumAdd = function(a,b) {
+        console.log(a+b)
+    }
+
+    SumAdd(30,40);
+    SumAdd(300, 500)
