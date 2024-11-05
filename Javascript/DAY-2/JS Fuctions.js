@@ -71,7 +71,7 @@ const sum = function(a, b){
      Addition(20,50);
 
 
-    //  Exercise Function Expression
+    //  Exercise | Function Expression
     const SumAdd = function(a,b) {
         console.log(a+b)
     }
@@ -87,3 +87,13 @@ const sum = function(a, b){
     }
 
     Meeting("Ayub Abdi");
+
+
+    // Exercise ||  Arrow Function (ES6)
+
+    const subtraction = (a, b) => {
+        console.log(a-b);
+    }
+
+    subtraction(50,30);
+    subtraction(200,50);
