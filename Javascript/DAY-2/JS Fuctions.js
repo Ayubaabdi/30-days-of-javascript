@@ -30,3 +30,14 @@ function calculateTotal(price,quantity) {
 calculateTotal(2, 10);
 calculateTotal(2, 5);
 calculateTotal(100, 5);
+
+
+// Function Return Values
+
+function add(a,b) {
+    return a+b;
+}
+
+let result = add(30,40);
+
+console.log(result / 2)
