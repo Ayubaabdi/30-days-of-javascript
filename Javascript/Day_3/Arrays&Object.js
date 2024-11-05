@@ -53,4 +53,8 @@ console.log(names[3]);
     console.log(person["age"])
     console.log(person["city"])
 
+    let student = ["Ayub", "abdi"]
+
+    console.log(student[0])
+
 
