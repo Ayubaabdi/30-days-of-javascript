@@ -41,3 +41,20 @@ function add(a,b) {
 let result = add(30,40);
 
 console.log(result / 2)
+
+// Function Expression
+const hello = function(name) {
+    console.log("hello !" + name)
+}
+
+hello("amina")
+
+
+
+const sum = function(a, b){
+    return a+b;
+}
+
+     let added =  sum(20,20)
+
+     console.log(added /2);
