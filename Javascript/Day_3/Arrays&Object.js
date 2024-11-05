@@ -35,4 +35,22 @@ console.log(names[3]);
 
     console.log(std.length)
 
-    
+
+    // Objects
+
+    let person = {
+        name : "Ayub",
+        age: 20,
+        city: "mogadishu",
+    }
+
+    // console.log(person.name)
+    // console.log(person.age)
+    // console.log(person.city)
+
+
+    console.log(person["name"])
+    console.log(person["age"])
+    console.log(person["city"])
+
+
