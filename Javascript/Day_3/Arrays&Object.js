@@ -61,3 +61,16 @@ console.log(names[3]);
 
     person.birthday =  "20-20-1999";
     console.log(person)
+
+
+    let people = {
+        name: "Aisha",
+        age: 30,
+        city: "afgooye",
+        greet: function () {
+            console.log("hello mss", this.name)
+        }
+
+    }
+
+    console.log(people.greet())
