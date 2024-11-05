@@ -78,3 +78,12 @@ const sum = function(a, b){
 
     SumAdd(30,40);
     SumAdd(300, 500)
+
+
+    // Arrow Function (ES6)
+
+    const Meeting = (named) => {
+        console.log("hello man " + named);
+    }
+
+    Meeting("Ayub Abdi");
