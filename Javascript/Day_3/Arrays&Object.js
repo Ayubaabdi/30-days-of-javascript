@@ -47,14 +47,17 @@ console.log(names[3]);
     // console.log(person.name)
     // console.log(person.age)
     // console.log(person.city)
+        console.log(person)
 
+    // console.log(person["name"])
+    // console.log(person["age"])
+    // console.log(person["city"])
 
-    console.log(person["name"])
-    console.log(person["age"])
-    console.log(person["city"])
+    // Adding and Modifying Properties
 
-    let student = ["Ayub", "abdi"]
+    person.name = "Ayub Abdi"
 
-    console.log(student[0])
+    console.log(person)
 
-
+    person.birthday =  "20-20-1999";
+    console.log(person)
