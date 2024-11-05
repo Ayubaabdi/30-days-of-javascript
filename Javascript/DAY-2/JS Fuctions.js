@@ -97,3 +97,42 @@ const sum = function(a, b){
 
     subtraction(50,30);
     subtraction(200,50);
+
+
+    // Scope
+
+    // Global Scope
+
+    let globalVariable = "i'm global Variable"
+
+    function showVariable () {
+        console.log(globalVariable)
+    }
+
+showVariable()
+
+console.log(globalVariable)
+
+
+    // local Variable
+
+    function localGlobal () {
+        let localVariable = "i'm Local variable";
+        console.log(localVariable);
+    }
+
+    localGlobal()
+
+
+    // console.log(localVariable);  Error
+
+
+    {
+        let localVariable = "i'm Local variable";
+        console.log(localVariable);
+    }
+
+    // console.log(localVariable) error
+
+
+ 
