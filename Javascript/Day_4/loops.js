@@ -58,23 +58,30 @@ while (x > 0) {
 //   v++;
 // } while (v < 5);
 
-let password;
+// let password;
 
-do {
-  password = prompt("enter you password");
-} while (password !== "1234");
+// do {
+//   password = prompt("enter you password");
+// } while (password !== "1234");
 
-console.log("welcome user");
+// console.log("welcome user");
+
+// // Exercise
+
+// let numbers;
+
+// do {
+//   numbers = prompt("enter number above 10");
+// } while (numbers !== "11");
+
+// console.log("success user");
 
 
 
-// Exercise
+// For Of Loop 
 
-let numbers;
+const languages = ["english", "somali", "arabic"] 
 
-do {
-   numbers = prompt("enter number above 10");
-}while(numbers !== "11");
-
-
-console.log("success user")
+for(let language of languages) {
+    console.log(language)
+}
