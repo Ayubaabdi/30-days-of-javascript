@@ -94,3 +94,23 @@ console.log(names[3]);
   console.log(students[0].name)
   console.log(students[0].age)
   console.log(students[1])
+
+
+//   Exercise
+
+  let library = [
+    {
+        title: "samee lacg",
+        author: "ali shire",
+        year: 2022
+    },
+    {
+        title: "garaadso intaadan guursan",
+        author: "khadija",
+        year: 2021
+    }
+
+  ]
+
+  console.log(library[0].title)
+  console.log(library[1].author)
