@@ -26,3 +26,11 @@ for(let i = 0; i < classStudents.length; i++) {
     console.log(classStudents[i])
 
 }
+
+// Exercise
+
+const Fruits = ["apple", "banana", "mouse"]
+
+for(let f= 0; f< Fruits.length; f++) {
+        console.log(Fruits[f])
+}
