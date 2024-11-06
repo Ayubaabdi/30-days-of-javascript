@@ -61,7 +61,20 @@ while (x > 0) {
 let password;
 
 do {
-  password = prompt("enter you passerd");
+  password = prompt("enter you password");
 } while (password !== "1234");
 
 console.log("welcome user");
+
+
+
+// Exercise
+
+let numbers;
+
+do {
+   numbers = prompt("enter number above 10");
+}while(numbers !== "11");
+
+
+console.log("success user")
