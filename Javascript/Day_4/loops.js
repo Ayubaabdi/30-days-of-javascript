@@ -34,3 +34,14 @@ const Fruits = ["apple", "banana", "mouse"]
 for(let f= 0; f< Fruits.length; f++) {
         console.log(Fruits[f])
 }
+
+
+// while loop
+
+let i= 0;
+
+while(i < 5) {
+console.log("Itaration Num" + i)
+
+i++
+}
