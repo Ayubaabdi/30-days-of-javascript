@@ -74,3 +74,23 @@ console.log(names[3]);
     }
 
     console.log(people.greet())
+
+
+    // Arrays of Objects
+
+  let students =  [
+    {
+        name: "Ayub",
+        age: 20,
+        phone: 909090
+    },
+     {
+        name: "khalid",
+        age: 90,
+        phone: 99399339
+     }
+  ]
+
+  console.log(students[0].name)
+  console.log(students[0].age)
+  console.log(students[1])
