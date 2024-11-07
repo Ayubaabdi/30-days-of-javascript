@@ -51,37 +51,49 @@ while (x > 0) {
 
 //  Do While Loop
 
-// let v = 0;
+let v = 0;
 
-// do {
-//   console.log("numbers is " + v);
-//   v++;
-// } while (v < 5);
+do {
+  console.log("numbers is " + v);
+  v++;
+} while (v < 5);
 
-// let password;
+let password;
 
-// do {
-//   password = prompt("enter you password");
-// } while (password !== "1234");
+do {
+  password = prompt("enter you password");
+} while (password !== "1234");
 
-// console.log("welcome user");
+console.log("welcome user");
 
-// // Exercise
+// Exercise
 
-// let numbers;
+let numbers;
 
-// do {
-//   numbers = prompt("enter number above 10");
-// } while (numbers !== "11");
+do {
+  numbers = prompt("enter number above 10");
+} while (numbers !== "11");
 
-// console.log("success user");
+console.log("success user");
 
+// For Of Loop
 
+const languages = ["english", "somali", "arabic"];
 
-// For Of Loop 
+for (let language of languages) {
+  console.log(language);
+}
 
-const languages = ["english", "somali", "arabic"] 
+const programming = ["javascript"];
 
-for(let language of languages) {
-    console.log(language)
+for (let l of programming) {
+  console.log(l);
+}
+
+// for in Loop
+
+const fruits = { name: "Apple", title: "banana", use: "mouse" };
+
+for (const fruit in fruits) {
+  console.log(fruits[fruit]);
 }
