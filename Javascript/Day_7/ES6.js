@@ -85,10 +85,8 @@ const array2 = [...array1, 5, 6, 7, 8];
 
 console.log(array2);
 
-
-
-function rest (...number) {
-  return  number.reduce((total, mult) => total * mult, 1)
+function rest(...number) {
+  return number.reduce((total, mult) => total * mult, 1);
 }
 
-console.log(rest(10,10))
+console.log(rest(10, 10));
