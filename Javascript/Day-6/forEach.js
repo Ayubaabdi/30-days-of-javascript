@@ -30,20 +30,35 @@ const newvit = vit.map((vit) => vit.length);
 
 console.log(newvit);
 
-
 // filter() Method
 
-const numing = [1,2,3,5,6,7,8,9,10]
+const numing = [1, 2, 3, 5, 6, 7, 8, 9, 10];
 
-const evernnum = numing.filter((numing) => numing %  2 === 0)
+const evernnum = numing.filter((numing) => numing % 2 === 0);
 
-console.log(evernnum)
-
+console.log(evernnum);
 
 // another example
 
-const score = [40, 50, 60, 70, 90]
+const score = [40, 50, 60, 70, 90];
 
 const pass = score.filter((score) => score <= 60);
 
-console.log(pass)
+console.log(pass);
+
+// reduce() Method
+
+const value = [1, 2, 3, 4, 5, 6];
+
+const values = value.reduce((total, sum) => total * sum, 1);
+
+console.log(values);
+
+
+// Exercise 
+
+let val = [1,2,3,4,5]
+
+const valuess = val.reduce((total, mult) => total * mult, 1)
+
+console.log(values)   
