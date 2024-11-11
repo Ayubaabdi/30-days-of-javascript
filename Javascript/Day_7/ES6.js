@@ -47,17 +47,48 @@ console.log(Model);
 
 // Default Parameters
 
-function person  (name ="Guest") {
-  console.log(`hello ${name}`)
+function person(name = "Guest") {
+  console.log(`hello ${name}`);
 }
 
-person("Amina")
-
+person("Amina");
 
 // exercise  Default Parameters
 
-function calculateArea (width, height=5) {
-        console.log(`width is ${width} and height is ${height}`)
+function calculateArea(width, height = 5) {
+  console.log(`width is ${width} and height is ${height}`);
 }
 
-calculateArea(5)
+calculateArea(5);
+
+// Spread  Operators
+
+const sum1 = [1, 2, 4, 5];
+
+const sum2 = [...sum1, 6, 7, 8];
+
+console.log(sum2);
+
+//Rest Operators
+
+function sum(...numbers) {
+  return numbers.reduce((total, sum) => total + sum, 0);
+}
+
+console.log(sum(20, 30, 40));
+
+// Exercise Spread  Operators and rest Operator
+
+const array1 = [1, 2, 3, 4];
+
+const array2 = [...array1, 5, 6, 7, 8];
+
+console.log(array2);
+
+
+
+function rest (...number) {
+  return  number.reduce((total, mult) => total * mult, 1)
+}
+
+console.log(rest(10,10))
