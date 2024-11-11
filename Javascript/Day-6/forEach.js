@@ -54,11 +54,17 @@ const values = value.reduce((total, sum) => total * sum, 1);
 
 console.log(values);
 
+// Exercise
 
-// Exercise 
+let val = [1, 2, 3, 4, 5];
 
-let val = [1,2,3,4,5]
+const valuess = val.reduce((total, mult) => total * mult, 1);
 
-const valuess = val.reduce((total, mult) => total * mult, 1)
+console.log(values);
 
-console.log(values)   
+
+const temperature  = [20, 30, 40, 50]
+
+const temperatureRage = temperature.filter((temperature) => temperature <= 60)
+
+console.log(temperatureRage)
