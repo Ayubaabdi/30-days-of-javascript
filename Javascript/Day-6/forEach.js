@@ -14,11 +14,18 @@ numbers.forEach((numbers) => {
   console.log("this is Number " + numbers);
 });
 
-
 // Map
 
-let number = [1,2,3,4,5]
+let number = [1, 2, 3, 4, 5];
 
-const newnumbers = number.map((number)=> number *2)
+const newnumbers = number.map((number) => number * 2);
 
-console.log(newnumbers)
+console.log(newnumbers);
+
+// Exercise Map
+
+const vit = ["apple", "banana", "jerry"];
+
+const newvit = vit.map((vit) => vit.length);
+
+console.log(newvit);
