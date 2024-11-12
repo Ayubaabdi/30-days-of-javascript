@@ -1,24 +1,34 @@
-let name = "Hamza";
-let age = 20;
-let student = true;
-let active = true;
+// Day challenge 1
 
-console.log("Name: " + name);
-console.log("Age : " + age);
-console.log(student && active);
+// let name = "Hamza";
+// let age = 20;
+// let student = true;
+// let active = true;
 
+// console.log("Name: " + name);
+// console.log("Age : " + age);
+// console.log(student && active);
 
+//  Day challenge 2
 
+// let a = 10;
+// let b = 10;
 
+// console.log(a+b);
+// console.log(a-b);
+// console.log(a*b);
+// console.log(a/b);
 
+//  Day challenge 3
 
-// Challenge two
+let firstLetter = "hello world";
 
-let a = 10;
-let b = 10;
+let Str = firstLetter.toUpperCase();
 
-console.log(a+b);
-console.log(a-b);
-console.log(a*b);
-console.log(a/b);
+console.log(Str);
 
+console.log("-----------")
+
+let newstr = firstLetter.replace("world", "javascript")
+
+console.log(newstr);
