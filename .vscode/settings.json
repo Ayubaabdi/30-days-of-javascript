@@ -8,5 +8,6 @@
     "newstr",
     "showglobalvariable",
     "synchrous"
-  ]
+  ],
+  "liveServer.settings.port": 5501
 }
