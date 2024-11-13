@@ -1,35 +1,34 @@
-// synchronous
-
-// function userdata() {
-//   alert("check your data user");
-
-//   return { id: 1, name: "ayub abdi" };
-// }
-
-// console.log("this is your first data");
-
-// const user = userdata();
-
-// console.log("this is your data ", user);
-
-// console.log("this is data secure is free ");
 
 
-// Asynchronous
 
-function accountData(callback) {
-   setTimeout(()=>{
-   const user = {id:1, name: "ali" }
-   callback(user)
-   }, 3000);
+// Synchronous
+
+function UserData() {
+    alert("this is your data");
+    return{id: 1, name: "ayub"}
 }
 
-console.log("start fetch user data ")
+console.log("yes your data secure")
 
-accountData(function(user) {
-    console.log("this is your data ",user)
-});
+const user = UserData();
 
-console.log("this is message show up imidiately")
+console.log("this is your data", user)
+
+console.log("checked Synchronous")
 
 
+// ASynchronous
+
+function getUserData (callback) {
+        setTimeout( ()=>  {
+               const user = {id: 1, name: "ayub"}
+               callback(user)
+        } , 3000 )
+
+}
+
+getUserData( function(user) {
+    console.log("this is your data", user)
+} )
+
+console.log("hi am your data")

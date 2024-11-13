@@ -55,5 +55,5 @@ console.log("-----");
 const target = 4;
 
 if (number.includes(target)) {
-  console.log(target +" is an array");
+  console.log(target + " is an array");
 }
