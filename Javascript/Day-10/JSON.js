@@ -19,15 +19,11 @@
 // console.log(parseData);
 
 async function displayUserData() {
-  console.log("Starting Fetching data");
+  console.log("started fetching Data");
 
-  const respose = await fetch("Data.json");
+  const response = await fetch("Data.json");
+  const data = await response.json();
 
-  console.log(respose);
-
-  const data = await respose.json();
-
-  console.log("respose", data);
+  console.log("fetching data", data);
 }
-
 displayUserData();
