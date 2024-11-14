@@ -35,25 +35,43 @@
 
 // Day 4 challenge
 
-const number = [1, 2, 3, 4, 5];
+// const number = [1, 2, 3, 4, 5];
 
-console.log(number);
+// console.log(number);
 
-console.log("-----");
+// console.log("-----");
 
-number.push(6);
-console.log(number);
+// number.push(6);
+// console.log(number);
 
-console.log("-----");
+// console.log("-----");
 
-number.pop();
+// number.pop();
 
-console.log(number);
+// console.log(number);
 
-console.log("-----");
+// console.log("-----");
 
-const target = 4;
+// const target = 4;
 
-if (number.includes(target)) {
-  console.log(target + " is an array");
+// if (number.includes(target)) {
+//   console.log(target + " is an array");
+// }
+
+
+// Day 5 challenge 
+
+for(let i = 0; i < 5; i++) {
+  console.log("this For loop " +i)
+} 
+
+console.log("-------------")
+
+let x = 0 ;
+while(x <3) {
+  console.log("this while loop " +x)
+
+  x++
 }
+
+
