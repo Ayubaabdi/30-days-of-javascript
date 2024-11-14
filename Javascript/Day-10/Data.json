@@ -1,0 +1,13 @@
+{
+    "id": 1,
+    "name": "ayub",
+    "city": "mogadishu",
+    "order": [
+        {
+            "id": 1, "product" : "laptop", "quantity": "2" },
+            {
+                "id":2, "product": "Mouse", "quantity": 1
+            }
+    ]
+
+}
