@@ -1,13 +1,12 @@
-
-
 function great(name) {
-    console.log("hello ", name)
+  console.log("hello ", name);
 }
 
 function userDataInfo(callback) {
-    const name = prompt("Enter Your Name")
+  const name = prompt("Enter Your Name");
 
-    callback(name)
+  callback(name);
 }
 
-userDataInfo(great)
+userDataInfo(great);
+
