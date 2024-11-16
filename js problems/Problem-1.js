@@ -61,17 +61,66 @@
 
 // Day 5 challenge 
 
-for(let i = 0; i < 5; i++) {
-  console.log("this For loop " +i)
-} 
+// for(let i = 0; i < 5; i++) {
+//   console.log("this For loop " +i)
+// } 
 
-console.log("-------------")
+// console.log("-------------")
 
-let x = 0 ;
-while(x <3) {
-  console.log("this while loop " +x)
+// let x = 0 ;
+// while(x <3) {
+//   console.log("this while loop " +x)
 
-  x++
+//   x++
+// }
+
+
+
+
+
+
+// challenge 6
+
+// let number = 3;
+
+// if(number > 3) {
+//   console.log("this is large number")
+
+// }else if (number < 3) {
+//   console.log("this less then number", )
+// } else if(number >= 3) {
+//   console.log("this same number", )
+// }
+
+
+// challenge 7 Function
+
+// function add(a,b) {
+
+//   return a+b
+// }
+// console.log(add(100,200))
+
+// outPut = 300
+
+// challenge 8 Scope
+
+// GlobalScope
+
+let myName = "Ayub Abdi"
+
+function callMessage () {
+// LocalScope
+  console.log("welcome mr" , myName)
+
 }
+callMessage()
+
+// Input = "Welcome mr Ayub abdi"
+
+
+
+
+
 
 
