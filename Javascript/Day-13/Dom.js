@@ -26,3 +26,15 @@ console.log(text)
 
 const button = document.querySelectorAll('button')
 console.log(button)
+
+
+function ChangeContent() {
+
+    header.textContent= "welcome to Dom"
+
+
+}
+
+function ChangeElement() {
+    header.innerHTML = `this is my website please <strong> welcome open hand </strong>`
+}
