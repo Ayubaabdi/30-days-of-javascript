@@ -1,9 +1,18 @@
 const lists = document.querySelector(".lists");
 
-function newItem () {
-    const newItem = document.createElement('li')
+// Adding Element
+function newItem() {
+  const newItem = document.createElement("li");
 
-    newItem.textContent = "Item 3";
+  newItem.textContent = "Item 3";
 
-    lists.appendChild(newItem)
+  lists.appendChild(newItem);
+}
+// Remove Element
+function removeElement() {
+  if (lists.lastChild) {
+    lists.removeChild(lists.lastChild);
+  } else {
+    alert("all Items is empty");
+  }
 }
