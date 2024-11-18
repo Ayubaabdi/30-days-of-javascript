@@ -58,12 +58,11 @@
 //   console.log(target + " is an array");
 // }
 
-
-// Day 5 challenge 
+// Day 5 challenge
 
 // for(let i = 0; i < 5; i++) {
 //   console.log("this For loop " +i)
-// } 
+// }
 
 // console.log("-------------")
 
@@ -73,11 +72,6 @@
 
 //   x++
 // }
-
-
-
-
-
 
 // challenge 6
 
@@ -91,7 +85,6 @@
 // } else if(number >= 3) {
 //   console.log("this same number", )
 // }
-
 
 // challenge 7 Function
 
@@ -107,20 +100,26 @@
 
 // GlobalScope
 
-let myName = "Ayub Abdi"
+// challenge 8  Function
 
-function callMessage () {
-// LocalScope
-  console.log("welcome mr" , myName)
+// let myName = "Ayub Abdi"
 
-}
-callMessage()
+// function callMessage () {
+// // LocalScope
+//   console.log("welcome mr" , myName)
+
+// }
+// callMessage()
 
 // Input = "Welcome mr Ayub abdi"
 
+// challenge 9 objects
 
+const person = {
+  name: "Ayub",
+  age: 22,
+};
 
+person.birthDate = 20 - 2 - 2000;
 
-
-
-
+console.log(person);
