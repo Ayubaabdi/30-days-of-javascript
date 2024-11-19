@@ -115,11 +115,31 @@
 
 // challenge 9 objects
 
-const person = {
-  name: "Ayub",
-  age: 22,
-};
+// const person = {
+//   name: "Ayub",
+//   age: 22,
+// };
 
-person.birthDate = 20 - 2 - 2000;
+// person.birthDate = 20 - 2 - 2000;
 
-console.log(person);
+// console.log(person);
+
+
+// Challenge Day 10
+
+async function fetchData () {
+
+  console.log("starting fetching data")
+
+  const response = await fetch('Main.json')
+ console.log("Json Data")
+  console.log(response)
+
+  console.log("Object Data")
+
+  const data =  await response.json();
+
+  console.log(data)
+}
+
+fetchData()
