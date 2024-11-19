@@ -1,9 +1,8 @@
-const  form = document.querySelector('#myForm');
-const forMessage = document.querySelector('#forMessage')
+const form = document.querySelector("#myForm");
+const forMessage = document.querySelector("#forMessage");
 
-form.addEventListener('submit', function(event) {
+form.addEventListener("submit", function (event) {
+  event.preventDefault();
 
-    event.preventDefault()
-
-    forMessage.textContent = "submission is preventing "
-})
+  forMessage.textContent = "submission is preventing ";
+});
