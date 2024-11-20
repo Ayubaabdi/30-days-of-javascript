@@ -10,6 +10,8 @@ form.addEventListener("submit", function (event) {
 
   const error = document.querySelector("#error");
 
+  
+
   // UserName section
   error.textContent = `hello Mr ${username}`;
 
