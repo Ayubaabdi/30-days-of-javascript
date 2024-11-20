@@ -7,7 +7,7 @@ Color.addEventListener("change", function () {
   console.log("Selected Color", Color.value);
 
   selectedColor.textContent = `selected Color : ${Color.value}`;
-
+     
   userName.addEventListener('change', function() {
         console.log("Current Name is " , userName.value)
 
