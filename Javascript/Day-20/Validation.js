@@ -22,25 +22,23 @@ form.addEventListener("submit", function (event) {
   const emailpattern = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
 
   if (!email.match(emailpattern)) {
-    (error.textContent = "Your Email valid Incorrect please check");
+    error.textContent = "Your Email valid Incorrect please check";
 
     return;
   }
 
-   error.textContent = "Your data Successfully"
+  error.textContent = "Your data Successfully";
 
-//    password section
+  //    password section
 
-   if(password.length < 8) {
-    error.textContent = "Your password at least 8 digits"
+  if (password.length < 8) {
+    error.textContent = "Your password at least 8 digits";
     return;
-   }
+  }
 
-//    confirm password
+  //    confirm password
 
-   if(password !== confirmpassword) {
-    error.textContent = "Your password Not Matched"
-   }
-
-
+  if (password !== confirmpassword) {
+    error.textContent = "Your password Not Matched";
+  }
 });
