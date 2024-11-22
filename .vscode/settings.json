@@ -10,6 +10,7 @@
     "newstr",
     "respose",
     "showglobalvariable",
+    "showresult",
     "synchrous"
   ],
   "liveServer.settings.port": 5501

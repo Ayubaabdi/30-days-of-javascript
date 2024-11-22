@@ -4,6 +4,40 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+
+    <style>
+      .valid {
+        border: 2px solid green;
+      }
+
+      .invalid {
+        border: 2px solid red;
+      }
+      input {
+        outline: none;
+      }
+    </style>
   </head>
-  <body></body>
+  <body>
+    <form id="validationUser">
+      <label for="username">UserName</label>
+      <input type="text" id="username" id="username" />
+      <br />
+      <label for="email">User Email</label>
+      <input type="email" id="email" id="email" />
+      <br />
+      <label for="password">Password</label>
+      <input type="password" name="password" id="password" />
+      <br />
+      <label for="confirmpassword">confirmPassword</label>
+      <input type="password" id="confirmPassword" name="confirmPassword" />
+      <br />
+      <button type="submit">Register</button>
+
+      <p id="error"></p>
+      <p id="success"></p>
+    </form>
+
+    <script src="AdvanceValiation.js"></script>
+  </body>
 </html>
