@@ -8,52 +8,40 @@ const confirmpassword = document.querySelector("#confirmpassword");
 const error = document.querySelector("#error");
 const success = document.querySelector("#success");
 
+form.addEventListener("submit", function (event) {
+  event.preventDefault();
 
-form.addEventListener('submit', function(event) {
-    event.preventDefault()
+  error.textContent = "";
+  success.textContent = "";
 
-    error.textContent = "";
-    success.textContent = "";
+  const resultShow = validationUser();
 
-   
+  if (!resultShow) {
+    username.focus();
+    return;
+  }
 
-    const resultShow = validationUser()
+  success.textContent = "Your Data Successfully";
+});
 
-
-
-    if(!resultShow) {
-        username.focus()
-        return;
-    }
-   
-    success.textContent = "Your Data Successfully"
-
-
-})
-
-
-function validationUser () {
-
-    if(username.value === '') {
-        setError(username, "username is required")
-        return false
-    }else {
-        setSuccess(username)
-        return true
-    }
-   
+function validationUser() {
+  if (username.value === "") {
+    setError(username, "username is required");
+    return false;
+  } else {
+    setSuccess(username);
+    return true;
+  }
 }
 
-function setError (userShow, message) {
+function setError(userShow, message) {
+  userShow.classList.add("invalid");
+  userShow.classList.remove("valid");
 
-    userShow.classList.add('invalid')
-    userShow.classList.remove('valid')
-
-    error.textContent = message;
+  error.textContent = message;
 }
 
 function setSuccess(userShow) {
-
-    userShow.classList.add('valid')
-    userShow.classList.remove('invalid')
+  userShow.classList.add("valid");
+  userShow.classList.remove("invalid");
 }
