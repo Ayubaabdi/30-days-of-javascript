@@ -12,7 +12,23 @@ const success = document.querySelector("#success");
 form.addEventListener('submit', function(event) {
     event.preventDefault()
 
+    error.textContent = "";
+    success.textContent = "";
+
+   
+
     const resultShow = validationUser()
+
+
+
+    if(!resultShow) {
+        username.focus()
+        return;
+    }
+   
+    success.textContent = "Your Data Successfully"
+
+
 })
 
 
@@ -32,6 +48,8 @@ function setError (userShow, message) {
 
     userShow.classList.add('invalid')
     userShow.classList.remove('valid')
+
+    error.textContent = message;
 }
 
 function setSuccess(userShow) {
