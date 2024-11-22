@@ -3,7 +3,7 @@ const form = document.querySelector("#validationUser");
 const username = document.querySelector("#username");
 const email = document.querySelector("#email");
 const password = document.querySelector("#password");
-const confirmpassword = document.querySelector("#confirmpassword");
+const confirmpassword = document.querySelector("#confirmPassword");
 
 const error = document.querySelector("#error");
 const success = document.querySelector("#success");
@@ -17,27 +17,24 @@ form.addEventListener("submit", function (event) {
   const userNameShow = validationUser();
   const emailShow = validateEmail();
   const passShow = validPassword();
-  const confirm = confirmPass()
+  const confirm = confirmPass();
 
   if (!userNameShow) {
     username.focus();
     return;
-   
   } else if (!emailShow) {
-    email.focus() 
-    return ;
-  }else if(!passShow) {
-    password.focus()
-    return
-  } else if (!confirm){
-    confirmpassword.focus()
+    email.focus();
+    return;
+  } else if (!passShow) {
+    password.focus();
+    return;
+  } else if (!confirm) {
+    confirmpassword.focus();
     return;
   }
 
-
   success.textContent = "Your Data Successfully";
 });
-
 
 function validationUser() {
   if (username.value === "") {
@@ -49,39 +46,35 @@ function validationUser() {
   }
 }
 function validateEmail() {
-    const emailpattern = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
-  
-    if (!email.value.match(emailpattern)) {
-      setError(email, "Your email don't same please try again");
-      return false;
-    } else {
-      setSuccess(email)
-      return true;
-    }
+  const emailpattern = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+
+  if (!email.value.match(emailpattern)) {
+    setError(email, "Your email don't same please try again");
+    return false;
+  } else {
+    setSuccess(email);
+    return true;
   }
+}
 
 function validPassword() {
-
-    if(password.value.length < 8) {
-        setError(password, "Your password is not match")
-        return false
-    } else {
-        setSuccess(password)
-        return true;
-    }
-
+  if (password.value.length < 8) {
+    setError(password, "Your password is not match");
+    return false;
+  } else {
+    setSuccess(password);
+    return true;
+  }
 }
 
 function confirmPass() {
-
-    if(password.value !== confirmpassword.value) {
-        setError(confirmpassword, "Your password is not match" )
-        return false;
-    }else {
-        setSuccess(confirmpassword)
-        return true;
-    }
-
+  if (password.value !== confirmpassword.value) {
+    setError(confirmpassword, "Your password is not match");
+    return false;
+  } else {
+    setSuccess(confirmpassword);
+    return true;
+  }
 }
 function setError(userShow, message) {
   userShow.classList.add("invalid");
