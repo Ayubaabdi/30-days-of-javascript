@@ -37,7 +37,7 @@ form.addEventListener("submit", function (event) {
 });
 
 function validationUser() {
-  if (username.value === "") {
+  if (username.value.trim() === "") {
     setError(username, "username is required");
     return false;
   } else {
@@ -68,6 +68,11 @@ function validPassword() {
 }
 
 function confirmPass() {
+       if(password.value.trim() === "" || confirmpassword.value.trim() === "") {
+            setError(confirmpassword, "Your password is not match" )
+            return false
+       }
+
   if (password.value !== confirmpassword.value) {
     setError(confirmpassword, "Your password is not match");
     return false;
