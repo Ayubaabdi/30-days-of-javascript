@@ -124,22 +124,30 @@
 
 // console.log(person);
 
-
 // Challenge Day 10
 
-async function fetchData () {
+// async function fetchData () {
 
-  console.log("starting fetching data")
+//   console.log("starting fetching data")
 
-  const response = await fetch('Main.json')
- console.log("Json Data")
-  console.log(response)
+//   const response = await fetch('Main.json')
+//  console.log("Json Data")
+//   console.log(response)
 
-  console.log("Object Data")
+//   console.log("Object Data")
 
-  const data =  await response.json();
+//   const data =  await response.json();
 
-  console.log(data)
-}
+//   console.log(data)
+// }
 
-fetchData()
+// fetchData()
+
+// challenge Day 11
+
+const numbers = [1, 2, 3, 4, 5, 8, 11];
+
+const evenNumber = numbers.filter((numbers) => numbers % 2 === 0);
+console.log("the even Number is ", evenNumber);
+
+//  Output is  [2, 4, 8]
